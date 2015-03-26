@@ -1,0 +1,161 @@
+body {
+
+    margin:0;
+    padding:0;
+    height:100%;
+    background: url("/resources/images/body_texture.png") repeat;
+
+}
+
+h1{
+    color: #7D7D7D;
+    font-family: Segoe Print, Verdana, sans-serif;
+    font-size: 46px;
+    font-weight: 100;
+    line-height: 50px;
+    letter-spacing: 1px;
+    padding: 0 0 40px;
+
+}
+
+
+table {
+    color: #333;
+    font-family: Segoe Print, Verdana, sans-serif;
+    width: 640px;
+    border: 1px solid #DBDBDB;
+    border-spacing: 0;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+}
+
+
+td, th {
+    border: 1px solid transparent; /* No more visible border */
+    height: 30px;
+    transition: all 0.3s;  /* Simple transition for hover effect */
+}
+
+
+th {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #565A61), color-stop(1, #292D30));
+    background: -moz-linear-gradient(center top, #565A61 5%, #292D30 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#565A61', endColorstr='#292D30');
+    background-color: #565A61;
+    color: #9E9E9E;
+    font-size: 14px;
+    font-weight: bold;
+    border-left: 1px solid #6e6e6e;
+}
+
+
+td {
+    color: #7D7D7D;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+/* Cells in even rows (2,4,6...) are one color */
+tr:nth-child(even) td { background: #F1F1F1; }
+
+
+/* Cells in odd rows (1,3,5...) are another (excludes header cells)  */
+tr:nth-child(odd) td { background: #FEFEFE; }
+
+
+.button {
+    background: #565A61;
+    background-image: -webkit-linear-gradient(top, #565A61, #292D30);
+    background-image: -moz-linear-gradient(top, #565A61, #292D30);
+    background-image: -ms-linear-gradient(top, #565A61, #292D30);
+    background-image: -o-linear-gradient(top, #565A61, #292D30);
+    background-image: linear-gradient(to bottom, #565A61, #292D30);
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Segoe Print, Verdana, sans-serif;
+    color: #7D7D7D;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+
+.button:hover {
+    text-decoration: none;
+}
+
+
+input {
+    background: white;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #DDD inset;
+    color: #666;
+    outline: none;
+    height:30px;
+    width: 250px;
+    font-family: Segoe Print, Verdana, sans-serif;
+
+}
+
+
+input.button{
+    background: #565A61;
+    background-image: -webkit-linear-gradient(top, #565A61, #292D30);
+    background-image: -moz-linear-gradient(top, #565A61, #292D30);
+    background-image: -ms-linear-gradient(top, #565A61, #292D30);
+    background-image: -o-linear-gradient(top, #565A61, #292D30);
+    background-image: linear-gradient(to bottom, #565A61, #292D30);
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Segoe Print, Verdana, sans-serif;
+    color: #7D7D7D;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    height: auto;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.hyperlink{
+
+    color: #7D7D7D;
+    font-family: Segoe Print, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+
+
+.error{
+
+    color: #780000;
+    font-family: Segoe Print, Verdana, sans-serif;
+    margin-bottom: 20px;
+
+
+}
+
+#error {
+
+    color: #780000;
+    font-family: Segoe Print, Verdana, sans-serif;
+    margin-bottom: 20px;
+
+
+}
