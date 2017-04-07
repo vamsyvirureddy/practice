@@ -18,5 +18,7 @@ public interface PersonDAO {
     public void updatePerson(Person person);
 
     public void deletePerson(int id);
+    
+    public void Personid
 
 }
