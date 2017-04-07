@@ -39,8 +39,8 @@ public class PersonController {
         return "addPerson";
 
     }
-
-
+    
+    
     @RequestMapping(value = "/save", method = RequestMethod.POST)
 
     public String save(@Valid @ModelAttribute("person") Person person,
