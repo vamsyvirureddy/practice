@@ -17,6 +17,7 @@ import javax.validation.constraints.Size;
 public class Person {
 
     @Id
+    @Entity
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
@@ -89,6 +90,9 @@ public class Person {
 
     public String getPhone() {
         return phone;
+    }
+    public String getage(){
+    	
     }
 
     public void setPhone(String phone) {
