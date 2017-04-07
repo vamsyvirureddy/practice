@@ -15,6 +15,8 @@ import javax.validation.constraints.Size;
 @NamedQueries({
         @NamedQuery(name = "Person.findAll", query = "SELECT p FROM Person p")})
 public class Person {
+	
+	syso("gsvCKJV");
 
     @Id
     @Entity
