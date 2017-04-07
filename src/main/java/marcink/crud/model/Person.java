@@ -17,6 +17,7 @@ import javax.validation.constraints.Size;
 public class Person {
 
     @Id
+    @Entity
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
@@ -29,9 +30,7 @@ public class Person {
     @Size(min = 1, max = 30, message = "The surname length must be between {min} and {max}")
     @Column(name = "surname")
     private String surname;
-    
-    System.out.println("this is vamsy change ");
-    
+
     @NotEmpty(message = "address cannot be null")
     @Size(min = 1, max = 50, message = "The address length must be between {min} and {max}")
     @Column
@@ -91,6 +90,9 @@ public class Person {
 
     public String getPhone() {
         return phone;
+    }
+    public String getage(){
+    	
     }
 
     public void setPhone(String phone) {
