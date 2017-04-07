@@ -40,7 +40,7 @@ public class Person {
     @Column
     private String phone;
 
-
+syso{hi thsi is vamshi}
     public Person() {
 
     }
